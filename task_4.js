@@ -1,9 +1,9 @@
 function daysBetween(start, end){
-    const date1 = new Date(start);
-    const date2 = new Date(end);
+    const startDate = new Date(start);
+    const endDate = new Date(end);
 
     const day = 1000 * 60 * 60 * 24; 
-    const time = date2.getTime() - date1.getTime();
+    const time = endDate.getTime() - startDate.getTime();
     const days = Math.round(time / day);
 
     return days;
