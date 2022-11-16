@@ -2,11 +2,10 @@ function daysBetween(start, end){
     const startDate = new Date(start);
     const endDate = new Date(end);
 
-    const day = 1000 * 60 * 60 * 24; 
     const time = endDate.getTime() - startDate.getTime();
-    const days = Math.round(time / day);
+    const days = time / (1000 * 3600 * 24);
 
-    return days;
+    return Math.abs(days);
 }
 
 console.log(daysBetween("2022-01-01", "2022-01-01") === 0);
