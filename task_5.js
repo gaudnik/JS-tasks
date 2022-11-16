@@ -1,5 +1,12 @@
 // write a function that when executed as findAdmin(list1, 'JavaScript') 
 // returns only the JavaScript developers who are GitHub admins:
+// -------------------------1---------------------------------------------------------
+function findAdmin(list, language) {
+    return list.filter(el => {
+        console.log(el.language === language && el.githubAdmin === 'yes')
+    })
+  };
+
 
 
 list1 = [
@@ -8,3 +15,5 @@ list1 = [
     { 'firstName': 'Jing', 'lastName': 'X.', 'country': 'China', 'continent': 'Asia', 'age': 34, 'language': 'JavaScript', 'githubAdmin': 'yes' },
     { 'firstName': 'Piotr', 'lastName': 'B.', 'country': 'Poland', 'continent': 'Europe', 'age': 128, 'language': 'JavaScript', 'githubAdmin': 'no' }
     ]
+
+findAdmin(list1, 'JavaScript');
