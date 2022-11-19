@@ -8,4 +8,4 @@ function countLetter(word){
       return arr;
   }
   
-  console.log(countLetter("zuza"));
+  console.log(countLetter("zuza"));8
