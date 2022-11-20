@@ -1,15 +1,3 @@
-// function count_letters_and_digits(str){
-//     let sign = [];
-//     let result = [];
-//     sign.push(str.split(""));
-//     for(let i=0; i<= sign.length; i++){
-//     if(typeof sign[i] === 'number' && sign[i] === 'string'){
-//         result.push();
-//         console.log(result.length);
-//     }
-// }
-//     return result;
-// }
 const isAlphaNumeric = str => /^[a-z0-9]+$/gi.test(str);
 
 function count_letters_and_digits(str){
