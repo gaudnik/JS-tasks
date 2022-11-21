@@ -1,9 +1,9 @@
 const differenceOfSquares = (n) =>{
     let sum = 0;
-    let squareSum = 0;
+    let sumSquare = 0;
     for (let i =1 ; i <= n; i++) {
-      sum += i*i;
-      squareSum += i;
+        sumSquare = sumSquare + i*i;
+        sum = sum + i;
     }
-    return squareSum*squareSum - sum;
+    return sum*sum - sumSquare;
   }
