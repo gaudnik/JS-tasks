@@ -4,5 +4,3 @@ function spinWords(string){
       return word.split('').reverse().join('');
     })
   }
-
-  console.log(spinWords("hello world"));

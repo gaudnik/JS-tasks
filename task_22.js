@@ -11,8 +11,3 @@ const isSquare = (n) => {
     }
     return false;
   }
-
-  console.log(isSquare(4));
-  console.log(isSquare(7));
-
-  

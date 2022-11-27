@@ -7,5 +7,3 @@ const fibonacciSequence = n => {
     }
     return result;
 }
-
-console.log(fibonacciSequence(5));

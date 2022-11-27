@@ -5,4 +5,3 @@ function countLetter(word){
       return arr;
   }
   
-  console.log(countLetter("zuza"));

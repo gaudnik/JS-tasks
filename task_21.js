@@ -8,5 +8,3 @@ function getCount(str) {
     }
     return vowelsCount;
   }
-
-  console.log(getCount('abrakadabra'));

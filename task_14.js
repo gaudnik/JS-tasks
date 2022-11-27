@@ -4,4 +4,3 @@ const isFibo = (a,b,f) => {
       }
     return a === f
   }
-

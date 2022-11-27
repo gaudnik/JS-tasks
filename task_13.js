@@ -7,5 +7,3 @@ const differenceOfSquares = (n) =>{
     }
     return sum*sum - sumSquare;
   }
-
-  console.log(differenceOfSquares(10));

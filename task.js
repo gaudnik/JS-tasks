@@ -7,9 +7,3 @@ function getFirstLetter(a) {
     };
     return answer;
 }
-
-
-let a = "Java Script";
-
-console.log(getFirstLetter(a) === "JS")
-

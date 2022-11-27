@@ -9,6 +9,3 @@ function isIsogram(str) {
     
     return true
   }
-
-  console.log(isIsogram("Dermatoglyphics"));
-

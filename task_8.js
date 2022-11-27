@@ -4,3 +4,4 @@ const sentence = list => (
       .map(obj => Object.values(obj)[0])
       .join(' ')
   );
+  

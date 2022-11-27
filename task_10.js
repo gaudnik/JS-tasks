@@ -9,3 +9,4 @@ var fibsFizzBuzz = function(n) {
     }
       return result;
   }
+  

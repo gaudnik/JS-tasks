@@ -6,5 +6,3 @@ const findAll = (array, n) => {
     }});
     return result;
   }
-
-  console.log(findAll([1,1,2,4,4], 4));
